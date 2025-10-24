@@ -14,6 +14,7 @@ public class Game1 : Game
     private int _Selected = 0;
 
     private double _KeysCountdown = 0;
+    private double _BlinkCountdown = 0;
 
     private bool _blinking = true;
 
@@ -45,10 +46,37 @@ public class Game1 : Game
             _KeysCountdown -= elapsed;
         }
 
+        if(_BlinkCountdown >= 0)
+        {
+            _BlinkCountdown -= elapsed;
+        }
+
         if (_KeysCountdown <= 0 && (state.IsKeyDown(Keys.Down) || state.IsKeyDown(Keys.Up)))
         {
             _Selected = (_Selected == 0) ? 1 : 0;
             _KeysCountdown = 300;
+        }
+
+        if(_blinking == true && _BlinkCountdown <= 0)
+        {
+            _blinking = false;
+            _BlinkCountdown = 300;
+        }
+
+        if(_blinking == false && _BlinkCountdown <= 0)
+        {
+            _blinking = true;
+            _BlinkCountdown = 300;
+        }
+
+        if(_Selected == 0 && state.IsKeyDown(Keys.Enter))
+        {
+            
+        }
+
+        if(_Selected == 1 && state.IsKeyDown(Keys.Enter))
+        {
+            Exit();
         }
 
         base.Update(gameTime);
@@ -77,14 +105,8 @@ public class Game1 : Game
 
         _spriteBatch.DrawString(_pixelfont, "Trick Or Treat", Label, Color.Orange);
 
-        if(_Selected == 0)
-        {
-        _spriteBatch.DrawString(_pixelfont, playText, Play, Color.Orange);
-        _spriteBatch.DrawString(_pixelfont, quitText, Quit, Color.Orange);
-        } else {
-        _spriteBatch.DrawString(_pixelfont, playText, Play, Color.Orange);
-        _spriteBatch.DrawString(_pixelfont, quitText, Quit, Color.Orange);
-        }
+            _spriteBatch.DrawString(_pixelfont, playText, Play, Color.Orange);
+            _spriteBatch.DrawString(_pixelfont, quitText, Quit, Color.Orange);
 
         _spriteBatch.End();
 
