@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>/home/marcellh/trickortreat/trickortreat/Content/pixelfont.spritefont</SourceFile>
-  <SourceTime>2025-10-23T09:26:16.209231+02:00</SourceTime>
-  <DestFile>/home/marcellh/trickortreat/trickortreat/Content/bin/DesktopGL/Content/pixelfont.xnb</DestFile>
-  <DestTime>2025-10-23T09:38:47.5623997+02:00</DestTime>
+  <SourceFile>/home/marcellh/Dokumentumok/trickortreat/Content/pixelfont.spritefont</SourceFile>
+  <SourceTime>2025-10-22T20:18:25.0605994+02:00</SourceTime>
+  <DestFile>/home/marcellh/Dokumentumok/trickortreat/Content/bin/DesktopGL/Content/pixelfont.xnb</DestFile>
+  <DestTime>2025-10-24T17:28:52.7191318+02:00</DestTime>
   <Importer>FontDescriptionImporter</Importer>
   <ImporterTime>2025-06-02T12:31:02+02:00</ImporterTime>
   <Processor>FontDescriptionProcessor</Processor>

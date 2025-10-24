@@ -69,3 +69,4 @@
 /home/marcellh/trickortreat/trickortreat/obj/Debug/net8.0/trickortreat.pdb
 /home/marcellh/trickortreat/trickortreat/obj/Debug/net8.0/trickortreat.genruntimeconfig.cache
 /home/marcellh/trickortreat/trickortreat/obj/Debug/net8.0/ref/trickortreat.dll
+/home/marcellh/Dokumentumok/trickortreat/obj/Debug/net8.0/trickortreat.sourcelink.json

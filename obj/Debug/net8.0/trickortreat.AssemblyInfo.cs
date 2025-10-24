@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("trickortreat")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f226185c0c4e033143aef672c71acffb81becc0f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d657fa2d6c4aca7e5f04710fa5295ee8aea5820b")]
 [assembly: System.Reflection.AssemblyProductAttribute("trickortreat")]
 [assembly: System.Reflection.AssemblyTitleAttribute("trickortreat")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

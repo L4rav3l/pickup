@@ -300,11 +300,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/marcellh/trickortreat/trickortreat/trickortreat.csproj",
+      "projectUniqueName": "/home/marcellh/Dokumentumok/trickortreat/trickortreat.csproj",
       "projectName": "trickortreat",
-      "projectPath": "/home/marcellh/trickortreat/trickortreat/trickortreat.csproj",
+      "projectPath": "/home/marcellh/Dokumentumok/trickortreat/trickortreat.csproj",
       "packagesPath": "/home/marcellh/.nuget/packages/",
-      "outputPath": "/home/marcellh/trickortreat/trickortreat/obj/",
+      "outputPath": "/home/marcellh/Dokumentumok/trickortreat/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/marcellh/.nuget/NuGet/NuGet.Config"
