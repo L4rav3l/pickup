@@ -4,9 +4,23 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
+    <File>/home/marcellh/Dokumentumok/trickortreat/Content/grapes_heap.png</File>
+    <File>/home/marcellh/Dokumentumok/trickortreat/Content/grapes.png</File>
+    <File>/home/marcellh/Dokumentumok/trickortreat/Content/grass.png</File>
+    <File>/home/marcellh/Dokumentumok/trickortreat/Content/mushroom_heap.png</File>
+    <File>/home/marcellh/Dokumentumok/trickortreat/Content/mushroom.png</File>
     <File>/home/marcellh/Dokumentumok/trickortreat/Content/pixelfont.spritefont</File>
+    <File>/home/marcellh/Dokumentumok/trickortreat/Content/player.png</File>
+    <File>/home/marcellh/Dokumentumok/trickortreat/Content/pot.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
   </DestFiles>
 </SourceFileCollection>

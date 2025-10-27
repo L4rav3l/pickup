@@ -70,3 +70,10 @@
 /home/marcellh/trickortreat/trickortreat/obj/Debug/net8.0/trickortreat.genruntimeconfig.cache
 /home/marcellh/trickortreat/trickortreat/obj/Debug/net8.0/ref/trickortreat.dll
 /home/marcellh/Dokumentumok/trickortreat/obj/Debug/net8.0/trickortreat.sourcelink.json
+/home/marcellh/Dokumentumok/trickortreat/bin/Debug/net8.0/Content/grass.xnb
+/home/marcellh/Dokumentumok/trickortreat/bin/Debug/net8.0/Content/grapes.xnb
+/home/marcellh/Dokumentumok/trickortreat/bin/Debug/net8.0/Content/pot.xnb
+/home/marcellh/Dokumentumok/trickortreat/bin/Debug/net8.0/Content/mushroom.xnb
+/home/marcellh/Dokumentumok/trickortreat/bin/Debug/net8.0/Content/grapes_heap.xnb
+/home/marcellh/Dokumentumok/trickortreat/bin/Debug/net8.0/Content/mushroom_heap.xnb
+/home/marcellh/Dokumentumok/trickortreat/bin/Debug/net8.0/Content/player.xnb

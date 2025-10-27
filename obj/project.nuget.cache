@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "U7m0RjRzJ2A=",
+  "dgSpecHash": "M0ayQ1SOY7E=",
   "success": true,
   "projectFilePath": "/home/marcellh/Dokumentumok/trickortreat/trickortreat.csproj",
   "expectedPackageFiles": [
@@ -12,8 +12,10 @@
     "/home/marcellh/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512",
     "/home/marcellh/.nuget/packages/system.valuetuple/4.5.0/system.valuetuple.4.5.0.nupkg.sha512",
     "/home/marcellh/.nuget/packages/microsoft.netcore.app.ref/8.0.20/microsoft.netcore.app.ref.8.0.20.nupkg.sha512",
+    "/home/marcellh/.nuget/packages/microsoft.netcore.app.runtime.win-x64/8.0.20/microsoft.netcore.app.runtime.win-x64.8.0.20.nupkg.sha512",
     "/home/marcellh/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.20/microsoft.aspnetcore.app.ref.8.0.20.nupkg.sha512",
-    "/home/marcellh/.nuget/packages/microsoft.netcore.app.host.linux-x64/8.0.20/microsoft.netcore.app.host.linux-x64.8.0.20.nupkg.sha512"
+    "/home/marcellh/.nuget/packages/microsoft.aspnetcore.app.runtime.win-x64/8.0.20/microsoft.aspnetcore.app.runtime.win-x64.8.0.20.nupkg.sha512",
+    "/home/marcellh/.nuget/packages/microsoft.netcore.app.host.win-x64/8.0.20/microsoft.netcore.app.host.win-x64.8.0.20.nupkg.sha512"
   ],
   "logs": []
 }

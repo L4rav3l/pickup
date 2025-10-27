@@ -1,2 +1,10 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
-"/home/marcellh/Dokumentumok/trickortreat/Content/pixelfont.spritefont","/home/marcellh/Dokumentumok/trickortreat/Content/bin/DesktopGL/pixelfont.xnb","FontDescriptionProcessor","SpriteFontContent",2027,70681,0.8392905
+"/home/marcellh/Dokumentumok/trickortreat/Content/grapes_heap.png","/home/marcellh/Dokumentumok/trickortreat/Content/bin/DesktopGL/grapes_heap.xnb","TextureProcessor","Texture2DContent",20190,409685,0.5017348
+"/home/marcellh/Dokumentumok/trickortreat/Content/grapes.png","/home/marcellh/Dokumentumok/trickortreat/Content/bin/DesktopGL/grapes.xnb","TextureProcessor","Texture2DContent",2525,16469,0.0070183
+"/home/marcellh/Dokumentumok/trickortreat/Content/grass.png","/home/marcellh/Dokumentumok/trickortreat/Content/bin/DesktopGL/grass.xnb","TextureProcessor","Texture2DContent",4389,16469,0.0101396
+"/home/marcellh/Dokumentumok/trickortreat/Content/mushroom_heap.png","/home/marcellh/Dokumentumok/trickortreat/Content/bin/DesktopGL/mushroom_heap.xnb","TextureProcessor","Texture2DContent",23961,409685,0.0765661
+"/home/marcellh/Dokumentumok/trickortreat/Content/mushroom.png","/home/marcellh/Dokumentumok/trickortreat/Content/bin/DesktopGL/mushroom.xnb","TextureProcessor","Texture2DContent",2148,16469,0.0067146
+"/home/marcellh/Dokumentumok/trickortreat/Content/pixelfont.spritefont","/home/marcellh/Dokumentumok/trickortreat/Content/bin/DesktopGL/pixelfont.xnb","FontDescriptionProcessor","SpriteFontContent",2128,136264,0.3665898
+"/home/marcellh/Dokumentumok/trickortreat/Content/PixelifySans-Regular.ttf","/home/marcellh/Dokumentumok/trickortreat/Content/bin/DesktopGL/PixelifySans-Regular.ttf","CopyItem","File",51312,51312,0.0013024
+"/home/marcellh/Dokumentumok/trickortreat/Content/player.png","/home/marcellh/Dokumentumok/trickortreat/Content/bin/DesktopGL/player.xnb","TextureProcessor","Texture2DContent",1344,102485,0.0174352
+"/home/marcellh/Dokumentumok/trickortreat/Content/pot.png","/home/marcellh/Dokumentumok/trickortreat/Content/bin/DesktopGL/pot.xnb","TextureProcessor","Texture2DContent",88559,409685,0.1020029

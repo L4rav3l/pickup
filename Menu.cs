@@ -38,6 +38,7 @@ public class Menu : IScene
         KeyboardState state = Keyboard.GetState();
         float elapsed = (float)gameTime.ElapsedGameTime.TotalSeconds * 1000;
 
+
         if(_KeysCountdown >= 0)
         {
             _KeysCountdown -= elapsed;
@@ -68,12 +69,13 @@ public class Menu : IScene
 
         if(_Selected == 0 && state.IsKeyDown(Keys.Enter))
         {
-            sceneManager.ChangeScene("room");
+            sceneManager.AddScene(new Play(graphicsDevice, contentManager, sceneManager), "play");
+            sceneManager.ChangeScene("play");
         }
 
         if(_Selected == 1 && state.IsKeyDown(Keys.Enter))
         {
-
+            new Game1().Exit();
         }
     }
 
@@ -84,7 +86,7 @@ public class Menu : IScene
         int Height = graphicsDevice.Viewport.Height;
         int Width = graphicsDevice.Viewport.Width;
 
-        Vector2 LabelM = _pixelfont.MeasureString("Trick Or Treat");
+        Vector2 LabelM = _pixelfont.MeasureString("Pick Up");
         Vector2 Label = new Vector2((Width / 2) - (LabelM.X / 2), (Height / 4) - (LabelM.Y / 2));
     
         string playText = _Selected == 0 && _blinking ? "> Play <" : "  Play  ";
@@ -96,7 +98,7 @@ public class Menu : IScene
         Vector2 QuitM = _pixelfont.MeasureString(quitText);
         Vector2 Quit = new Vector2((Width / 2) - (QuitM.X / 2), (Height / 4) - (QuitM.Y / 2) + (150));
 
-        spriteBatch.DrawString(_pixelfont, "Trick Or Treat", Label, Color.Orange);
+        spriteBatch.DrawString(_pixelfont, "Pick Up", Label, Color.Orange);
 
         spriteBatch.DrawString(_pixelfont, playText, Play, Color.Orange);
         spriteBatch.DrawString(_pixelfont, quitText, Quit, Color.Orange);

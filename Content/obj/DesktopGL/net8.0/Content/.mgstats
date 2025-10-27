@@ -1,2 +1,9 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
-"/home/marcellh/Dokumentumok/trickortreat/Content/pixelfont.spritefont","/home/marcellh/Dokumentumok/trickortreat/Content/bin/DesktopGL/Content/pixelfont.xnb","FontDescriptionProcessor","SpriteFontContent",2128,136264,1.3645289
+"/home/marcellh/Dokumentumok/trickortreat/Content/grapes_heap.png","/home/marcellh/Dokumentumok/trickortreat/Content/bin/DesktopGL/Content/grapes_heap.xnb","TextureProcessor","Texture2DContent",20190,409685,0.1776914
+"/home/marcellh/Dokumentumok/trickortreat/Content/grapes.png","/home/marcellh/Dokumentumok/trickortreat/Content/bin/DesktopGL/Content/grapes.xnb","TextureProcessor","Texture2DContent",2525,16469,0.4820857
+"/home/marcellh/Dokumentumok/trickortreat/Content/grass.png","/home/marcellh/Dokumentumok/trickortreat/Content/bin/DesktopGL/Content/grass.xnb","TextureProcessor","Texture2DContent",4389,16469,0.6854785
+"/home/marcellh/Dokumentumok/trickortreat/Content/mushroom_heap.png","/home/marcellh/Dokumentumok/trickortreat/Content/bin/DesktopGL/Content/mushroom_heap.xnb","TextureProcessor","Texture2DContent",23961,409685,0.023875
+"/home/marcellh/Dokumentumok/trickortreat/Content/mushroom.png","/home/marcellh/Dokumentumok/trickortreat/Content/bin/DesktopGL/Content/mushroom.xnb","TextureProcessor","Texture2DContent",2148,16469,0.4207202
+"/home/marcellh/Dokumentumok/trickortreat/Content/pixelfont.spritefont","/home/marcellh/Dokumentumok/trickortreat/Content/bin/DesktopGL/Content/pixelfont.xnb","FontDescriptionProcessor","SpriteFontContent",2128,136264,0.4356373
+"/home/marcellh/Dokumentumok/trickortreat/Content/player.png","/home/marcellh/Dokumentumok/trickortreat/Content/bin/DesktopGL/Content/player.xnb","TextureProcessor","Texture2DContent",1344,102485,0.6431798
+"/home/marcellh/Dokumentumok/trickortreat/Content/pot.png","/home/marcellh/Dokumentumok/trickortreat/Content/bin/DesktopGL/Content/pot.xnb","TextureProcessor","Texture2DContent",88559,409685,0.798133

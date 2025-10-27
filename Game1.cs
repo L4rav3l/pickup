@@ -25,6 +25,12 @@ public class Game1 : Game
         Content.RootDirectory = "Content";
         IsMouseVisible = true;
         sceneManager = new();
+        
+        _graphics.PreferredBackBufferWidth = 1920;
+        _graphics.PreferredBackBufferHeight = 1080;
+
+        _graphics.IsFullScreen = true;
+        _graphics.ApplyChanges();
     }
 
     protected override void Initialize()
@@ -36,8 +42,7 @@ public class Game1 : Game
     {
         _spriteBatch = new SpriteBatch(GraphicsDevice);
         sceneManager.AddScene(new Menu(GraphicsDevice, Content, sceneManager), "menu");
-        sceneManager.AddScene(new Room(GraphicsDevice, Content, sceneManager), "room");
-        sceneManager.AddScene(new Lobby(GraphicsDevice, Content, sceneManager), "lobby");
+        sceneManager.AddScene(new Play(GraphicsDevice, Content, sceneManager), "play");
         sceneManager.ChangeScene("menu");
     }
 
@@ -55,7 +60,7 @@ public class Game1 : Game
     {
         GraphicsDevice.Clear(Color.CornflowerBlue);
 
-        _spriteBatch.Begin(samplerState: SamplerState.PointClamp);
+        _spriteBatch.Begin(sortMode: SpriteSortMode.FrontToBack, blendState: BlendState.AlphaBlend, samplerState: SamplerState.PointClamp);
 
         sceneManager.GetCurrentScene().Draw(_spriteBatch);
 
